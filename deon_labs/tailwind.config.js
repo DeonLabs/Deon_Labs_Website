@@ -13,9 +13,10 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'hero-pattern': 'url("/Hero.png")',
         'hero-pattern-mobile': 'url("/Hero_mobile.png")',
+        'hero-pattern-tablet': 'url("/Hero_tablet.png")',
       },
       fontFamily: {
-        tektur: "Tektur",
+        tektur: ["Tektur" , "cursive"],
         poppins: "Poppins",
         inter: "Inter",
       },

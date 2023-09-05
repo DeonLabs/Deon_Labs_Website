@@ -2,12 +2,12 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className="bg-hero-pattern-mobile md:bg-hero-pattern h-[50vh] w-[100vw] bg-cover bg-no-repeat">
-    <h1 className="relative top-[13rem] text-center font-tektur text-4xl ">
-      Web3 ecosystem <br/> enabler 
+    <div className="bg-hero-pattern-mobile md:bg-hero-pattern-tablet lg:bg-hero-pattern lg:h-[75vh] h-[50vh] w-[100vw] bg-cover bg-no-repeat">
+    <h1 className="relative top-[12rem] text-center font-tektur text-4xl md:text-5xl md:top-[16rem] lg:text-7xl lg:top-[19rem] font-semibold ">
+      Web3 ecosystem  enabler 
     </h1>
-    <p className="relative top-[15rem] text-center font-tektur opacity-50 break-normal px-5">
-    Deon Labs is your in-house web3 ecosystem builder driving paradigm shifts into web3 ecosystems
+    <p className="relative top-[14rem] text-center font-tektur opacity-50 break-words px-5 md:top-[18rem] lg:top-[21rem] lg:text-xl ">
+    Deon Labs is your in-house web3 ecosystem builder  driving paradigm <br /> shifts into web3 ecosystems
     </p>
   </div>
   )
