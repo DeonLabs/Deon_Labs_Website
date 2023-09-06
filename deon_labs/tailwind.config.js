@@ -18,6 +18,7 @@ module.exports = {
         'Grad-left' : 'url("/Grad-left.png")',
         'Grad-right' : 'url("/Grad-right.png")',
         'Background' : 'url("/Background.png")',
+        'Footer-mobile'  : 'url("/Footer.png")',
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],

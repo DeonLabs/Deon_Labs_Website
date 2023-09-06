@@ -3,7 +3,7 @@ import React from "react";
 function Team() {
   return (
     <div className="min-h-full">
-      <div className=" bg-gradient relative top-[8rem] ">
+      <div className=" bg-gradient relative top-[8rem] bg-no-repeat ">
         <h1 className="text-center font-tektur relative top-[1rem] py-[2rem] font-semibold text-3xl px-[1rem]">
           Built By A Team From
         </h1>
