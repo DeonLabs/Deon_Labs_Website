@@ -14,6 +14,10 @@ module.exports = {
         'hero-pattern': 'url("/Hero.png")',
         'hero-pattern-mobile': 'url("/Hero_mobile.png")',
         'hero-pattern-tablet': 'url("/Hero_tablet.png")',
+        'gradient': 'url("/Frame.png")',
+        'Grad-left' : 'url("/Grad-left.png")',
+        'Grad-right' : 'url("/Grad-right.png")',
+        'Background' : 'url("/Background.png")',
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],

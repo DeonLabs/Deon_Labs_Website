@@ -6,8 +6,8 @@ function Hero() {
     <h1 className="relative top-[12rem] text-center font-tektur text-4xl md:text-6xl md:top-[18rem] lg:text-7xl lg:top-[19rem] font-semibold ">
       Web3 ecosystem  enabler 
     </h1>
-    <p className="relative top-[14rem] text-center font-tektur opacity-50 break-words px-5 md:top-[20rem] lg:top-[21rem] lg:text-xl ">
-    Deon Labs is your in-house web3 ecosystem builder  driving paradigm <br /> shifts into web3 ecosystems
+    <p className="relative top-[14rem] text-center font-tektur opacity-50  md:top-[20rem] lg:top-[21rem] lg:text-xl ">
+    Deon Labs is your in-house web3 ecosystem builder  driving  paradigm shifts into web3 ecosystems
     </p>
   </div>
   )
