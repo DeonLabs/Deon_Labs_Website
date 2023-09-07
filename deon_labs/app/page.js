@@ -19,7 +19,6 @@ function page() {
       <Partner/>
 
       {/* Built By A Team From */}
-
       <Team/>
 
       {/* Footer Of the page  */}
