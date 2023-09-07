@@ -22,6 +22,7 @@ module.exports = {
         'Background' : 'url("/Background.png")',
         'Footer-mobile'  : 'url("/Footer.png")',
         'Footer-tablet'  : 'url("/section-bottom.png")',
+        'Footer-Desktop' : 'url("/Section-5.png")',
         'Achievments ': 'url("/wrldbg-01 1.png")',
       },
       fontFamily: {
