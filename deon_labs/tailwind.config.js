@@ -36,10 +36,11 @@ module.exports = {
         'pro': 'calc(100vw - 20rem)',
       }
       ,
-      extend:{
-        colors:{
-          'grad' : 'linear-gradient(to right top, #8f00ff, #7c00ff, #6500ff, #4700ff, #0000ff)'
-        }
+      colors:{
+        'grad' : 'linear-gradient(to right top, #8f00ff, #7c00ff, #6500ff, #4700ff, #0000ff)'
+      },
+      boxShadow: {
+        '3xl'  : ''
       }
     },
   },

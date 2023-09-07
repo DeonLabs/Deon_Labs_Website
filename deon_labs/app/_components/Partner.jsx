@@ -1,21 +1,19 @@
-'use client'
 import React from 'react'
-
+import partnerbtn from './UI/partner-btn'
 
 function Partner() {
   return (
-    <div className='px-10 relative  top-[4rem] w-[100vw] space-y-[1rem] '>
-    <h1 className='text-center font-tektur text-3xl md:text-4xl  font-semibold'>
+    <div className='px-8 relative top-[4rem]'>
+    <h1 className='text-center font-tektur text-3xl md:text-4xl'>
     Our Partners
     </h1>
 
-    <p className='text-center font-tektur text-xs md:text-xs'>
+    <p className='text-center font-tektur text-xs md:text-xs space-y-10'>
     We contributed to building a revolutionary ecosystem for some of the leading
     </p>
 
     {/* now the scroll  */}
-   
-   
+    <div></div>
     </div>
   )
 }
