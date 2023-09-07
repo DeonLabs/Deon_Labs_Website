@@ -1,11 +1,11 @@
 import React from 'react'
 
-function partnerbtn() {
+function Service() {
   return (
     <div>
-      
+        <Service/>
     </div>
   )
 }
 
-export default partnerbtn
+export default Service

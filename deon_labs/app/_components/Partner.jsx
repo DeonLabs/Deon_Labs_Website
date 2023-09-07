@@ -1,4 +1,6 @@
+'use client'
 import React from 'react'
+
 
 function Partner() {
   return (
@@ -12,10 +14,7 @@ function Partner() {
     </p>
 
     {/* now the scroll  */}
-    <div className='flex flex-row '>
-      
-
-    </div>
+   
    
     </div>
   )

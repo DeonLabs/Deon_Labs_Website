@@ -23,7 +23,8 @@ module.exports = {
         'Footer-mobile'  : 'url("/Footer.png")',
         'Footer-tablet'  : 'url("/section-bottom.png")',
         'Footer-Desktop' : 'url("/Section-5.png")',
-        'Achievments ': 'url("/wrldbg-01 1.png")',
+        'Achievments-mobile': 'url("/Mask group.png")',
+        'border-gradient' : '',
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],
@@ -31,7 +32,14 @@ module.exports = {
         inter: "Inter",
       },
       screens: {
-        'tablet' : '400px'
+        'tablet' : '400px', 
+        'pro': 'calc(100vw - 20rem)',
+      }
+      ,
+      extend:{
+        colors:{
+          'grad' : 'linear-gradient(to right top, #8f00ff, #7c00ff, #6500ff, #4700ff, #0000ff)'
+        }
       }
     },
   },
