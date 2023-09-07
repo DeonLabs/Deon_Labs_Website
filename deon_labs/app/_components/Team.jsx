@@ -3,14 +3,17 @@ import React from "react";
 function Team() {
   return (
     <div className="min-h-full">
-      <div className=" bg-gradient relative top-[8rem] md:bg-gradient-tablet md:bg-no-repeat md:bg-center md:bg-cover lg:bg-gradient-pc lg:bg-cover">
-        <h1 className="text-center font-tektur relative top-[1rem] py-[2rem] md:text-5xl font-semibold text-3xl ">
+      <div className=" bg-gradient relative top-[8rem] md:bg-gradient-tablet bg-no-repeat md:bg-center md:bg-cover lg:bg-gradient-pc lg:bg-cover lg:flex lg:flex-row lg:justify-evenly">
+        <div className="flex flex-col lg:space-y-[7%] py-[6%]"> 
+        <h1 className="text-center font-tektur relative top-[9%] py-[5%] md:text-5xl font-bold text-3xl lg:text-5xl  ">
           Built By A Team From
         </h1>
-        <p className=" font-tektur text-xs text-center min-w-[40ch] md:text-lg md:max-w-[50ch] md:relative md:left-[8rem]">
+        <p className="font-tektur px-[5%] text-xs text-center min-w-[40ch] md:text-lg md:max-w-[50ch] md:relative md:left-[8rem] lg:left-[2%]">
         We have assembled a team of web3 avengers from some of the leading web3 companies to build your dream web3 company.
         </p>
-        <img className="py-[3rem] md:relative md:left-[1rem] md:h-[70vh] md:w-[94vw] lg:h-[90vh] lg:w-[60vw] lg:object-top " src="./build_by.png" alt="" />
+        </div>
+        
+        <img className="py-[0.5%] md:relative md:left-[7%]  md:bottom-[5%] md:h-[80vh] md:w-[90vw] lg:h-[80vh] lg:w-[40vw] lg:left-[1%] xl:left-[4%] lg:object-top " src="./build_by.png" alt="" />
       </div>
     </div>
   );

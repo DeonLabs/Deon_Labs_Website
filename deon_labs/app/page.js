@@ -1,3 +1,4 @@
+import Achievments from "./_components/Achievments"
 import Footer from "./_components/Footer"
 import Hero from "./_components/Hero"
 import Navbar from "./_components/Navbar"
@@ -18,6 +19,9 @@ function page() {
       {/* Our Partners  */}
       <Partner/>
 
+      {/* Achievments */}
+
+      
       {/* Built By A Team From */}
       <Team/>
 

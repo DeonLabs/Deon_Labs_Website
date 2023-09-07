@@ -22,12 +22,16 @@ module.exports = {
         'Background' : 'url("/Background.png")',
         'Footer-mobile'  : 'url("/Footer.png")',
         'Footer-tablet'  : 'url("/section-bottom.png")',
+        'Achievments ': 'url("/wrldbg-01 1.png")',
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],
         poppins: "Poppins",
         inter: "Inter",
       },
+      screens: {
+        "tablet" : "400px"
+      }
     },
   },
   plugins: [],
