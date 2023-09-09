@@ -1,5 +1,5 @@
 import React from 'react'
-import partnerbtn from './UI/partner-btn'
+
 
 function Partner() {
   return (

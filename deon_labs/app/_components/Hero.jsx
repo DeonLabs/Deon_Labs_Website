@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import partnerbtn from './UI/partner-btn'
+import Callout from './UI/Callout'
 
 function Hero() {
   return (
@@ -12,7 +12,7 @@ function Hero() {
     <p className="relative px-[2%] top-[14rem] text-center font-tektur opacity-50 md:px-[6rem]  md:top-[20rem] lg:top-[27rem] lg:text-lg ">
     Deon Labs is your in-house web3 ecosystem builder  driving  paradigm shifts into web3 ecosystems
     </p>
-    <partnerbtn/>
+    <Callout/>
   </div>
   )
 }
