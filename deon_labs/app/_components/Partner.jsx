@@ -3,7 +3,7 @@ import React from 'react'
 
 function Partner() {
   return (
-    <div className='px-8 py-8 relative top-[4rem]  h-[40vh]'>
+    <div className='px-8 py-8 relative top-[4rem] min-h-[40vh]'>
     <h1 className='text-center font-tektur text-3xl md:text-4xl'>
     Our Partners
     </h1>
