@@ -1,7 +1,7 @@
 import Achievments from "../_components/Achievments"
 import Footer from "../_components/Footer"
 import Hero from "../_components/Hero"
-import Navbar from "./_components/Navbar"
+
 import Partner from "../_components/Partner"
 import Team from "../_components/Team"
 

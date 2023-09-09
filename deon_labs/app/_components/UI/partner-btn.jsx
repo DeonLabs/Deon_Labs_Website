@@ -2,7 +2,7 @@ import React from 'react'
 
 function partnerbtn() {
   return (
-    <div>
+    <div className='border border-white'>
       
     </div>
   )
