@@ -17,7 +17,7 @@ function page() {
             <Navbar />
 
             {/* Hero Section */}
-            <div className="mt-10">
+            <div className="">
                 <Hero />
             </div>
 
