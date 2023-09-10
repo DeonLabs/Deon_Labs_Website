@@ -3,27 +3,26 @@ import React from "react";
 import { useState } from "react";
 import Ticker from "framer-motion-ticker";
 import Image from "next/image";
-import { isMobile } from "react-device-detect";
 
 function Partner() {
-    const imgs = [
-        "BINANCE.png",
-        "CHAINLINK.png",
-        "FILECOIN.png",
-        "POLYGON.png",
-        "SHARDEUM.png",
-        "SOLANA.png",
-        "TOPL.png",
+    const def = [
+        "BINANCE",
+        "CHAINLINK",
+        "FILECOIN",
+        "POLYGON",
+        "SHARDEUM",
+        "SOLANA",
+        "TOPL",
     ];
-    const [speed, setSpeed] = useState(20);
-
-    let width = 144,
-        height = 160;
-
-    if (isMobile) {
-        width = 72;
-        height = 80;
-    }
+    const [imgs, setImgs] = useState([
+        "BINANCE",
+        "CHAINLINK",
+        "FILECOIN",
+        "POLYGON",
+        "SHARDEUM",
+        "SOLANA",
+        "TOPL",
+    ]);
 
     return (
         <div className="px-8 py-8 relative top-[4rem] min-h-[40vh] flex flex-col ticker-wrapper">
@@ -38,17 +37,32 @@ function Partner() {
 
             {/* now the scroll  */}
             <div className="mt-10">
-                <Ticker
-                    duration={speed}
-                    onMouseEnter={() => setSpeed(10)}
-                    onMouseLeave={() => setSpeed(5)}>
+                <Ticker duration={15}>
                     {imgs.map((item, index) => (
                         <Image
                             key={index}
                             className="mx-6 w-[72px] h-[80px] md:w-[144px] md:h-[160px]"
-                            width={isMobile ? 72 : 144}
-                            height={isMobile ? 80 : 160}
-                            src={`/partners/${item}`}
+                            width={144}
+                            height={160}
+                            src={`/partners/${item}.png`}
+                            onMouseOver={() => {
+                                // console.log("hi");
+
+                                const tmp = Array.from(imgs);
+                                if (tmp[index] !== def[index]) {
+                                    tmp[index] = def[index];
+                                } else {
+                                    tmp[index] = `${item}2`;
+                                }
+                                setImgs(tmp);
+                            }}
+                            onMouseOut={() => {
+                                // console.log("byee");
+
+                                const tmp = Array.from(imgs);
+                                tmp[index] = item;
+                                setImgs(tmp);
+                            }}
                             alt={item}
                         />
                         // <div
