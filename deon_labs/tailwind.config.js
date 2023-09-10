@@ -25,6 +25,7 @@ module.exports = {
         'Footer-Desktop' : 'url("/Section-5.png")',
         'Achievments-mobile': 'url("/Mask group.png")',
         'border-gradient' : 'url("/Group 2338 (1).png")',
+        'Service-grad' : 'url("/service-bg.png")',
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],
