@@ -2,8 +2,8 @@ import React from 'react'
 
 function Callout() {
   return (
-    <button className='border border-white rounded-full w-[60%] h-[20vh] text-center py-[10%] relative left-[20%] bg-white md:top-[70%] md:text-2xl lg:w-[30%] lg:left-[33%] lg:top-[60%]'>
-      <h1 className='font-tektur text-black font-bold'>Build Web3 Ecosystem</h1>
+    <button className='border border-white rounded-full w-[70%] h-[5vh] text-center  relative left-[15%] bg-white md:top-[70%] md:text-2xl lg:w-[30%] lg:left-[33%] lg:top-[60%]'>
+      <h1 className='font-tektur text-black font-bold text-2xl'>Build Web3 Ecosystem</h1>
     </button>
   )
 }

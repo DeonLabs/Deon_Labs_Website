@@ -14,7 +14,7 @@ function page() {
     return (
         <main>
             {/* Navbar */}
-            <Navbar />
+            <Navbar/>
 
             {/* Hero Section */}
             <div className="">
