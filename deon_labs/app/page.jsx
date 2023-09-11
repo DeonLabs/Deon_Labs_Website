@@ -27,7 +27,8 @@ function page() {
             {/* Built By A Team From */}
             {/* <Team/> */}
 
-            <Services />
+            <Services heading="What We Can Do For You?" desc="We contributed to building a revolutionary ecosystem for some of the leading"/>
+
 
             {/* Achievments */}
             <Achievments />
