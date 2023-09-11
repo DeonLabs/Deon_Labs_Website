@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import Service from "./UI/Service";
 
 function Services() {
@@ -15,7 +15,7 @@ function Services() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-y-[4%] space-y-[4%] lg:grid lg:grid-cols-2 lg:space-y-[0px] ">
+      <div className="relative flex flex-col gap-y-[4%] space-y-[4%] lg:grid lg:grid-cols-2 lg:space-y-[0px] ">
         <Service
           heading={"Full service launch and growth"}
           desc={

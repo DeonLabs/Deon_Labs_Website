@@ -2,7 +2,7 @@ import React from "react";
 
 function Service({ heading, desc }) {
   return (
-    <div className=" ">
+    <>
       <div className="relative left-[8%] flex min-h-[20vh] w-[85vw] flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[40vw]">
         <img
           src="./Rectangle 60.svg"
@@ -18,7 +18,7 @@ function Service({ heading, desc }) {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
