@@ -5,6 +5,7 @@ import Navbar from "./_components/Navbar";
 import Partner from "./_components/Partner";
 import Services from "./_components/Services";
 import Team from "./_components/Team";
+import Callout from "./_components/UI/Callout";
 import Service from "./_components/UI/Service";
 
 // All the components are available in the _components folder
@@ -14,11 +15,12 @@ function page() {
     return (
         <main>
             {/* Navbar */}
-            <Navbar />
+            <Navbar/>
 
             {/* Hero Section */}
-            <div className="mt-10">
+            <div className="">
                 <Hero />
+            
             </div>
 
             {/* Our Partners  */}

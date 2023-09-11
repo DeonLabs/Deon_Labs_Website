@@ -2,19 +2,21 @@ import React from "react";
 
 function Team() {
   return (
-    <div className="min-h-full">
-      <div className=" bg-gradient relative top-[8rem] md:bg-gradient-tablet md:bg-no-repeat md:bg-center md:bg-cover lg:bg-gradient-pc lg:bg-cover lg:flex lg:flex-row lg:justify-evenly overflow-none">
-        <div className="flex flex-col lg:space-y-[7%] py-[6%]"> 
-        <h1 className="text-center font-tektur relative top-[9%] py-[5%] md:text-5xl font-bold text-3xl lg:text-5xl  ">
-          Built By A Team From
-        </h1>
-        <p className="font-tektur px-[5%] text-xs text-center min-w-[40ch] md:text-lg md:max-w-[50ch] md:relative md:left-[8rem] lg:left-[2%]">
-        We have assembled a team of web3 avengers from some of the leading web3 companies to build your dream web3 company.
-        </p>
-        </div>
-        
-        <img className="py-[0.5%] md:relative md:left-[5%] md:bottom-[5%] md:h-[80vh] md:w-[90vw] lg:h-[80vh] lg:w-[40vw] lg:left-[1%] xl:left-[4%] lg:object-top " src="./build_by.png" alt="" />
-      </div>
+    <div className="py-[25%]">
+      <h1 className="font-tektur text-center text-[1.2rem] leading-[2rem] space-y-[0.5rem] font-semibold md:text-2xl lg:text-4xl">
+      Built by a team from
+      </h1>
+     <div className="flex flex-row align-center justify-between border-4 border-none mx-[2%] py-[5%]">
+      <img src="./tezoz.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+      <img src="./gari.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+      <img src="./superteam.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+      <img src="./router.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+      <img src="./bankless.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+      <img src="./dapp_list.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+      <img src="./gitopia.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+      <img src="./kleros.png" alt class="md:h-[3rem] md:w-[3rem] lg:h-[5rem] lg:w-[5rem]"/>
+
+      </div> 
     </div>
   );
 }
