@@ -18,11 +18,11 @@ function page() {
       <Hero/>
       {/* Built By A Team From */}
       <Built/>
+      <Services heading='Our Vision' desc="We contributed to building a revolutionary ecosystem for some of the leading"/>
 
       {/* Partners */}
       <Partner/>
       {/* Our Vision */}
-      <Services heading='Our Vision' desc="We contributed to building a revolutionary ecosystem for some of the leading"/>
       {/* Footer Of the page  */}
       <Footer/>
     </main>
