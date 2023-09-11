@@ -1,3 +1,4 @@
+"use client"
 import Achievments from "./_components/Achievments";
 import Footer from "./_components/Footer";
 import Hero from "./_components/Hero";
@@ -7,6 +8,8 @@ import Services from "./_components/Services";
 import Team from "./_components/Team";
 import Callout from "./_components/UI/Callout";
 import Service from "./_components/UI/Service";
+import AnimatedCursor from "react-animated-cursor";
+
 
 // All the components are available in the _components folder
 //Made with love by Deon Labs
@@ -14,8 +17,24 @@ import Service from "./_components/UI/Service";
 function page() {
     return (
         <main>
+            <div id="cursor">
+                <AnimatedCursor
+                    innerSize={8}
+                    outerSize={35}
+                    innerScale={1}
+                    outerScale={2}
+                    outerAlpha={0}
+                    hasBlendMode={true}
+                    innerStyle={{
+                        backgroundColor: "#fff",
+                    }}
+                    outerStyle={{
+                        border: "3px solid #fff",
+                    }}
+                />
+            </div>
             {/* Navbar */}
-            <Navbar/>
+            {/* <Navbar/> */}
 
             {/* Hero Section */}
             <div className="">

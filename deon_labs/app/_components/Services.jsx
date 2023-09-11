@@ -5,7 +5,7 @@ import Service from './UI/Service'
 function Services({heading ,  desc}) {
   return (
     
-      <div className='flex flex-col  py-[0.25%] lg:py-[1%] mt-[15%] lg:mt-[10%] font-black space-y-[5%] lg:mx-[8%] '>
+      <div className='flex flex-col  py-[0.25%] lg:py-[1%] mt-[30%] lg:mt-[10%] font-black space-y-[5%] lg:mx-[8%] '>
       <div>
       <h1 className='font-tektur text-[1.728rem] md:text-[2.07rem] lg:text-[3.58rem] font-bold text-center '>{heading}</h1>
       <p className='font-tektur text-[0.694rem] md:text[0.83rem]  lg:text-[1rem] px-[5%] text-center font-[400] opacity-50'>{desc}</p>
