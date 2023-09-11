@@ -26,7 +26,7 @@ function Partner() {
 
     return (
         <div className="px-8 py-8 relative top-[4rem] min-h-[40vh] flex flex-col ticker-wrapper">
-            <h1 className="text-center font-tektur text-3xl md:text-4xl">
+            <h1 className="text-center font-tektur text-3xl md:text-4xl font-bold">
                 Our Partners
             </h1>
 
@@ -41,7 +41,7 @@ function Partner() {
                     {imgs.map((item, index) => (
                         <Image
                             key={index}
-                            className="mx-6 w-[72px] h-[80px] md:w-[144px] md:h-[160px]"
+                            className="mx-6 w-[72px] h-[80px] md:w-[144px] md:h-[160px] "
                             width={144}
                             height={160}
                             src={`/partners/${item}.png`}
