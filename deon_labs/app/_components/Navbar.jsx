@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
-import { useState } from "react";
+
 
 function Navbar() {
   const [show, setShow] = useState(false);
