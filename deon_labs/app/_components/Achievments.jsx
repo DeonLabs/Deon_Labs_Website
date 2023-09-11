@@ -1,5 +1,5 @@
-import React from 'react'
-import Card from './UI/Record_card'
+import React from "react";
+import Card from "./UI/RecordCard";
 
 function Achievments() {
   return (
@@ -11,14 +11,9 @@ function Achievments() {
         <Card number={'100+'} type={'projects'}/>
         </div>
         <img src="./Mask group.png" alt="" />
+      </div>
     </div>
-  
-    </div>
-      
-  
-   
-    
-  )
+  );
 }
 
-export default Achievments
+export default Achievments;
