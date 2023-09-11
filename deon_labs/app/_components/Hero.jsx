@@ -10,7 +10,7 @@ function Hero() {
                     Web3 ecosystem enabler
                 </h1>
                 <p className=" px-[2%]  text-center font-tektur opacity-50 md:px-[6rem] text-[0.694375rem] md:text-[0.833125rem] lg:text-[1.2rem]   ">
-                    Deon Labs is your in-house web3 ecosystem builder driving
+                    Deon Labs is your in-house web3 ecosystem builder driving <br />
                     paradigm shifts into web3 ecosystems
                 </p>
             </div>
