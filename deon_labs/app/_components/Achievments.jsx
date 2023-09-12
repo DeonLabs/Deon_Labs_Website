@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./UI/Record_Card";
+import Card from "./UI/Record_card";
 
 function Achievments() {
   return (
