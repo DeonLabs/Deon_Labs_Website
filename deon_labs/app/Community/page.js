@@ -2,7 +2,7 @@ import Image from "next/image"
 import Achievments from "../_components/Achievments"
 
 import Footer from "../_components/Footer"
-import Hero from "../_components/Community/Hero_Community"
+import Hero from "../_components/Community/Hero"
 
 import Partner from "../_components/Partner"
 import Team from "../_components/Team"
