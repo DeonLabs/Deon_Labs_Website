@@ -17,7 +17,7 @@ import AnimatedCursor from "react-animated-cursor";
 function page() {
     return (
         <main>
-            <div id="cursor">
+            {/* <div id="cursor">
                 <AnimatedCursor
                     innerSize={8}
                     outerSize={35}
@@ -32,7 +32,7 @@ function page() {
                         border: "3px solid #fff",
                     }}
                 />
-            </div>
+            </div> */}
             {/* Navbar */}
             {/* <Navbar/> */}
 

@@ -7,6 +7,7 @@ import AnimatedCursor from "react-animated-cursor";
 import Partner from "../_components/Partner"
 import Services from "../_components/Services"
 import Team from "../_components/Team"
+import Vision from "../_components/Vision"
 
 // All the components are available in the _components folder
 //Made with love by Deon Labs
@@ -14,7 +15,7 @@ import Team from "../_components/Team"
 function page() {
   return (
     <main>
-      <div id="cursor">
+      {/* <div id="cursor">
                 <AnimatedCursor
                     innerSize={8}
                     outerSize={35}
@@ -29,7 +30,7 @@ function page() {
                         border: "3px solid #fff",
                     }}
                 />
-            </div>
+            </div> */}
       <Navbar/>
      
       {/* Hero Section */}
@@ -38,8 +39,7 @@ function page() {
         {/*  By A Team From */}
         <Team/>
 
-      {/* Achievments */}
-      <Achievments/>
+     <Vision/>
       
     
       {/* Partners */}

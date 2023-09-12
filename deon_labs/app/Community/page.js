@@ -1,4 +1,6 @@
+import Image from "next/image"
 import Achievments from "../_components/Achievments"
+
 import Footer from "../_components/Footer"
 import Hero from "../_components/Hero"
 
@@ -16,15 +18,10 @@ function page() {
       {/* Hero Section */}
       <Hero/>
 
-      {/* Our Partners  */}
-      <Partner/>
-
-      {/* Achievments */}
-      <Achievments/>
-      
-      {/* Built By A Team From */}
-      <Team/>
-
+      <a href="https://www.youtube.com/">
+      <img src="./Frame 39.png" className="px-[10%] mt-[20%] lg:mx-[6%]" />
+      </a>
+     
       {/* Footer Of the page  */}
       <Footer/>
     </main>

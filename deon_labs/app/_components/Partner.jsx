@@ -25,14 +25,14 @@ function Partner() {
   ]);
 
   return (
-    <div className="ticker-wrapper relative top-[4rem] flex min-h-[40vh] flex-col px-8 py-8">
-      <h1 className="text-center font-tektur text-3xl md:text-4xl">
+    <div className="ticker-wrapper relative top-[4rem] flex min-h-[40vh] flex-col px-[15%] py-8">
+      <h1 className="text-center font-tektur font-semibold text-3xl md:text-4xl">
         Our Partners
       </h1>
 
       <p className="mt-4 text-center font-tektur text-xs md:text-xs">
         We contributed to building a revolutionary ecosystem for some of the
-        leading
+        leading 
       </p>
 
       {/* now the scroll  */}

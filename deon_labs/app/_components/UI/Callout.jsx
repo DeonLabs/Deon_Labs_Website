@@ -2,9 +2,16 @@ import React from "react";
 
 function Callout() {
   return (
-    <button className='border border-white rounded-full w-[60%] h-[5vh] text-center bg-white  md:text-2xl lg:w-[30%] relative left-[20%] md:top-[50%]  lg:left-[33%] lg:top-[60%] '>
-      <h1 className='font-tektur text-black font-bold'>Build Web3 Ecosystem</h1>
+    <div className="flex flex-col gap-y-[2vh] md:justify-center md:flex-row  md:gap-x-[5%] px-[20%]">
+     
+    <button class=" border-2 border-black bg-white text-black transition-all font-bold duration-300 ease-in-out hover:bg-black hover:text-white hover:border-white  text-xs md:text-sm py-2 px-4 rounded-full font-tektur lg:py-4 lg:px-8">
+    Build Web3 Ecosystem
     </button>
+    <button class=" border-2 border-white transition-all font-bold duration-300 ease-in-out  hover:bg-white hover:text-black text-xs md:text-sm py-2 px-4 rounded-full font-tektur lg:py-4 lg:px-8">
+    Build Web3 Ecosystem
+    </button>
+    </div>
+    
   );
 }
 
