@@ -44,7 +44,7 @@ function Navbar() {
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={1024}>
-        <div className="flex h-[8.5vh] w-[80vw] lg:h-[7vh]  flex-row items-center justify-between">
+        <div className={!show?"flex h-[8.5vh] w-[80vw] lg:h-[7vh]   flex-row items-center justify-between":"flex h-[8.5vh] w-[80vw] lg:h-[7vh] flex-row items-center justify-between relative left-[10%]"}>
           {/* bg-[#0a0a0a] lg:h-[16vh] "> */}
           <Image
             src="/logo_desktop.png"
@@ -54,7 +54,7 @@ function Navbar() {
             alt=""
           />
           <Image
-            src="/right-nav.png"
+            src={!show?"/right-nav.png":"/cross.png"}
             className="h-[24px] w-[24px]"
             width={72}
             height={72}
@@ -67,7 +67,7 @@ function Navbar() {
         <AnimatePresence>
           {show && (
             <motion.div
-              className="animate-fade-down animate-once animate-ease-in-out mx-[5px] flex flex-col text-center my-[10%] lg:my-[5%] lg:text-lg gap-y-4 pb-5 text-sm text-white transition-all h-[100vh] "
+              className="animate-fade-down animate-once animate-ease-in-out mx-[5px] flex flex-col text-center my-[10%] lg:my-[5%] lg:text-lg gap-y-4 pb-5 text-sm text-white transition-all h-[100vh] w-[100vw]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -83,7 +83,7 @@ function Navbar() {
             </a>
             <a
               href="#"
-              className="border-2 border-white transition-all text-center duration-300 ease-in-out  hover:bg-white hover:text-black text-xs md:text-sm py-2 px-[2%] rounded-full hover:bg-white hover:text-black font-tektur font-semibold"
+              className="border-2 border-white transition-all ml-[25%] w-[50vw] text-center duration-300 ease-in-out  hover:bg-white text-xs md:text-sm py-2 px-[2%] rounded-full hover:text-black font-tektur font-semibold"
             >
               CONTACT US
             </a>
