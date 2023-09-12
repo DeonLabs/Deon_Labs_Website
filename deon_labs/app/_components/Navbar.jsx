@@ -67,7 +67,7 @@ function Navbar() {
         <AnimatePresence>
           {show && (
             <motion.div
-              className="animate-fade-down animate-once animate-ease-in-out mx-[5px] flex flex-col text-center my-[10%] lg:my-[5%] lg:text-lg gap-y-4 pb-5 text-sm text-white transition-all h-[100vh] w-[100vw]"
+              className="animate-fade-down animate-once animate-ease-in-out mt-[20%] mx-[5px] flex flex-col text-center my-[10%] lg:my-[5%] lg:text-lg gap-y-[6%] pb-5 text-sm text-white transition-all h-[100vh] w-[100vw]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}

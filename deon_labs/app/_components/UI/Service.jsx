@@ -3,7 +3,7 @@ import React from "react";
 function Service({ heading, desc }) {
   return (
     <>
-      <div className="relative left-[8%] flex  min-h-[30vh] w-[80vw] flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw]">
+      <div className="relative left-[8%] flex  min-h-[20vh] max-w-[80vw] flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw] lg:min-h-[30vh]">
         <img
           src="./Rectangle 60.svg"
           className="relative left-[5%] w-[8%] mb-[80%] md:w-[5%] md:mb-36 lg:mb-[22%] md:mt-[5%] mt-[20%]"
