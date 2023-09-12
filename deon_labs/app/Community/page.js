@@ -2,7 +2,7 @@ import Image from "next/image"
 import Achievments from "../_components/Achievments"
 
 import Footer from "../_components/Footer"
-import Hero from "../_components/Hero"
+import Hero from "../_components/Community/Hero_Community"
 
 import Partner from "../_components/Partner"
 import Team from "../_components/Team"
@@ -19,7 +19,7 @@ function page() {
       <Hero/>
 
       <a href="https://www.youtube.com/">
-      <img src="./Frame 39.png" className="px-[10%] mt-[20%] lg:mx-[6%]" />
+      <img src="./Frame 39.png" className="px-[10%] mt-[20%] lg:mx-[6%]  " />
       </a>
      
       {/* Footer Of the page  */}

@@ -26,6 +26,12 @@ module.exports = {
         'Achievments-mobile': 'url("/Mask group.png")',
         'border-gradient' : 'url("/Group 2338 (1).png")',
         'Service-grad' : 'url("/service-bg.png")',
+        'About-grad' : 'url("/Hero_About_pc.png")',
+        'About-grad-tab' : 'url("/Hero_About_tab.png")',
+        'About-grad-phone' : 'url("/Hero_About_phone.png")',
+        'Community-grad-phone' : 'url("/Hero_Community_phone.png")',
+        'Community-grad-tab' : 'url("/Hero_Community_tab.png")',
+        'Community-grad' : 'url("/Hero (3).png")',
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],

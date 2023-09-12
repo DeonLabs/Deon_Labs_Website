@@ -1,7 +1,7 @@
 "use client"
 import Achievments from "../_components/Achievments"
 import Footer from "../_components/Footer"
-import Hero from "../_components/Hero"
+import Hero from "../_components/About/Hero_About"
 import Navbar from "../_components/Navbar"
 import AnimatedCursor from "react-animated-cursor";
 import Partner from "../_components/Partner"

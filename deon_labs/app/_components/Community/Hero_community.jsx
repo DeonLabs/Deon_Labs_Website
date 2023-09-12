@@ -3,7 +3,7 @@ import Navbar from '../Navbar'
 import Callout from '../UI/Callout'
 function Hero() {
   return (
-    <div className="bg-About-grad-phone md:bg-About-grad-tab lg:bg-About-grad bg-no-repeat bg-cover w-[100vw] py-[2%]  ">
+    <div className="bg-Community-grad-phone md:bg-Community-grad-tab lg:bg-Community-grad bg-no-repeat bg-cover w-[100vw] py-[2%] ">
      <Navbar/>
      
      <div className='flex flex-col text-center py-[5%] space-y-[5%]'>
