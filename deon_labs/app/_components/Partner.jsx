@@ -25,7 +25,7 @@ function Partner() {
   ]);
 
   return (
-    <div className="ticker-wrapper relative top-[4rem] flex min-h-[40vh] flex-col px-[15%] py-8">
+    <div className="ticker-wrapper relative top-[4rem] flex min-h-[40vh] flex-col px-[15%] py-8 lg:py-[10%]">
       <h1 className="text-center font-tektur font-semibold text-3xl md:text-4xl">
         Our Partners
       </h1>
