@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import Callout from '../UI/Callout'
+import Button from '../UI/Button'
 function Hero() {
   return (
     <div className="bg-About-grad-phone md:bg-About-grad-tab lg:bg-About-grad bg-no-repeat bg-cover w-[100vw] py-[2%]  ">
@@ -16,7 +16,7 @@ function Hero() {
     </p>    
       </div>
      
-    <Callout/>
+    <Button/>
      </div>
       
   
