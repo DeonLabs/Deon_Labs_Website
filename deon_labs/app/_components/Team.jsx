@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Team() {
+  
   return (
     <div className="py-[20%] mt-[10%] md:mt-0 lg:py-[10%]">
       <h1 className="font-tektur text-center text-[1.2rem] leading-[2rem] space-y-[0.5rem]  md:text-2xl lg:text-4xl">
