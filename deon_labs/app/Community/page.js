@@ -19,7 +19,7 @@ function page() {
       <Hero/>
 
       <a href="https://www.youtube.com/">
-      <img src="./Frame 39.png" className="px-[10%] mt-[20%] lg:mx-[6%]  " />
+      <img src="./Frame 39.png" className=" px-[10%] mt-[20%]  items-center mx-[2%] lg:mx-[7%] pro:mx-[1%] " />
       </a>
      
       {/* Footer Of the page  */}
@@ -30,3 +30,4 @@ function page() {
 }
 
 export default page
+//  lg:mx-[6%] 

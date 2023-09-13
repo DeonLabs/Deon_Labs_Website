@@ -9,12 +9,12 @@ function Footer() {
 
   return (
     <footer>
-      <div className="w-[100vw] bg-Footer-mobile bg-no-repeat py-[12rem] md:bg-Footer-tablet bg-cover md:py-[20rem] lg:bg-Footer-Desktop ">
-        <h1 className="relative top-[0.6rem] px-[3rem] text-center font-tektur text-2xl font-semibold md:px-[4rem] md:text-5xl lg:px-[20%]">
+      <div className="w-[100vw] bg-Footer-mobile bg-no-repeat py-[12rem] md:bg-Footer-tablet bg-cover pro:py-[13rem] fold:py-[10rem] lg:py-[20rem] lg:bg-Footer-Desktop px-[10%] ">
+        <h1 className="relative top-[0.6rem] px-[3rem] text-center font-tektur text-2xl font-semibold md:px-[4rem] md:text-5xl lg:px-[20%] fold:text-xl">
           YOU BUILD WEB3 PRODUCT, WE WILL BUILD ECOSYSTEM FOR YOU!!
         </h1>
       </div>
-      <div className="glass mx-auto w-[90vw] rounded-b-none rounded-t-[32px] border px-[4%] py-[10px] font-tektur lg:w-[80vw]">
+      <div className="glass mx-auto w-[90vw] rounded-b-none rounded-t-[32px] border px-[4%] py-[10px] font-tektur lg:w-[80vw] ">
         <div className="mb-10 mt-10 flex flex-col gap-y-12 md:mb-14 md:mt-20 md:gap-y-16">
           <div
             className={`flex flex-row flex-wrap ${

@@ -40,7 +40,8 @@ module.exports = {
       },
       screens: {
         'tablet' : '400px', 
-        'pro': 'calc(100vw - 20rem)',
+        'pro': {'max': '1024px'},
+        'fold':{ 'max': '280px'}
       }
       ,
       colors:{
