@@ -3,13 +3,13 @@ import React from "react";
 function Service({ heading, desc }) {
   return (
     <>
-      <div className="relative left-[8%] flex  min-h-[10vh] max-w-[80vw] flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw] lg:min-h-[30vh]">
+      <div className="relative left-[8%] flex mobile:min-h-[30vh]  h-[30vh] max-w-[86vw]  flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw] lg:min-h-[30vh]">
         <img
           src="./Rectangle 60.svg"
-          className="relative left-[5%] w-[8%] mb-[80%] md:w-[5%] md:mb-36 lg:mb-[22%] md:mt-[5%] mt-[20%]"
+          className="relative left-[5%] h-[2rem] lg:w-[5%] mb-[90%] md:w-[5%] md:mb-36 lg:mb-[22%] md:mt-[5%] mt-[10%]"
           alt=""
         />
-        <div className="flex flex-col justify-normal md:py-[4%] py-[15%]">
+        <div className="flex flex-col justify-normal py-[5%] md:py-[4%] ">
           <h1 className="lg: px-[9%] py-[3%] font-tektur text-[1.44rem] text-xl font-[600] md:text-[1.72rem]">
             {heading}
           </h1>

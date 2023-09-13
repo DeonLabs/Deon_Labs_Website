@@ -18,9 +18,12 @@ function page() {
       {/* Hero Section */}
       <Hero/>
 
+      <div className="flex justify-center">
       <a href="https://www.youtube.com/">
-      <img src="./Frame 39.png" className=" px-[10%] mt-[20%]  items-center mx-[2%] lg:mx-[7%] pro:mx-[1%] " />
+      <img src="./Frame 39.png" className="item-center sm:w-[80vw] sm:mt-[10%] " />
       </a>
+      </div>
+      
      
       {/* Footer Of the page  */}
       <Footer/>

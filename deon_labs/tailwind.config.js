@@ -41,7 +41,10 @@ module.exports = {
       screens: {
         'tablet' : '400px', 
         'pro': {'max': '1024px'},
-        'fold':{ 'max': '280px'}
+        'fold':{ 'max': '280px'}, 
+        'phone': {'max': '400px'},
+        'sm': {'min': '200px', 'max': '1130px'}, 
+        'mobile': {'min': '200px', 'max': '500px'},
       }
       ,
       colors:{
