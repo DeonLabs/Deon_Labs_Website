@@ -46,6 +46,7 @@ function Navbar() {
       <MediaQuery maxWidth={1024}>
         <div className={!show?"flex h-[8.5vh] w-[80vw] lg:h-[7vh]   flex-row items-center justify-between":"flex h-[8.5vh] w-[80vw] lg:h-[7vh] flex-row items-center justify-between relative left-[10%]"}>
           {/* bg-[#0a0a0a] lg:h-[16vh] "> */}
+          <a href="/">
           <Image
             src="/logo_desktop.png"
             width={394}
@@ -53,6 +54,8 @@ function Navbar() {
             className="z-3 h-[24px] w-[64px] lg:h-[36px] lg:w-[96px]"
             alt=""
           />
+          </a>
+          
           <Image
             src={!show?"/right-nav.png":"/cross.png"}
             className="h-[24px] w-[24px]"
