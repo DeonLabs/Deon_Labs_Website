@@ -75,18 +75,18 @@ function Navbar() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <a href="/About" className="hover:text-[#8F00FF] font-tektur ">
+              <a href="/About" className="hover:text-[#8F00FF] font-tektur text-2xl ">
               ABOUT US
             </a>
-            <a href="#" className="hover:text-[#8F00FF] font-tektur">
+            <a href="#" className="hover:text-[#8F00FF] font-tektur text-2xl">
               SERVICES
             </a>
-            <a href="/Community" className="hover:text-[#8F00FF]  font-tektur">
+            <a href="/Community" className="hover:text-[#8F00FF]  font-tektur text-2xl">
               COMMUNITY
             </a>
             <a
               href="#"
-              className="border-2 border-white transition-all ml-[25%] w-[50vw] text-center duration-300 ease-in-out  hover:bg-white text-xs md:text-sm py-2 px-[2%] rounded-full hover:text-black font-tektur font-semibold"
+              className="border-2 border-white transition-all ml-[25%] w-[50vw] text-center duration-300 ease-in-out  hover:bg-white text-xs md:text-sm py-2 px-[2%] rounded-full hover:text-black font-tektur font-semibold text-2xl"
             >
               CONTACT US
             </a>
