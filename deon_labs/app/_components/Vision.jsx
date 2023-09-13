@@ -4,7 +4,7 @@ import Service from "./UI/Service";
 
 function Vision({heading , desc}) {
   return (
-    <div className="mt-[5%] flex flex-col space-y-[6%] py-[0.25%] font-black px-[4%] lg:px-[7%] lg:ml-[2%] lg:mr-[2%] ">
+    <div className="mt-[5%] flex flex-col space-y-[6%] py-[0.25%] font-black px-[4%] lg:px-[9%] lg:ml-[2%] lg:mr-[2%] ">
       <div>
         <h1 className="text-center font-tektur text-[1.728rem] font-semibold md:text-[2.07rem] lg:text-[3.58rem] ">
          Our Vision
