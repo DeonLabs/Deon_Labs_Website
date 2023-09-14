@@ -46,6 +46,7 @@ module.exports = {
         'sm': {'min': '200px', 'max': '1130px'}, 
         'mobile': {'min': '200px', 'max': '800px'},
         'nest-hub' :{'min:': '1024px', 'max': '1500px'},
+        'small-phone':{'min:': '320px', 'max': '390px'}
       }
       ,
       colors:{

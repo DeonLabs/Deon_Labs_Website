@@ -3,7 +3,7 @@ import React from "react";
 function Service({ heading, desc }) {
   return (
     <>
-      <div className="relative left-[8%] flex mobile:max-h-[30vh]  max-w-[86vw]  flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw] lg:min-h-[30vh]">
+      <div className="relative left-[8%] flex  mobile:max-h-[30vh]  max-w-[86vw]  flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw] lg:min-h-[30vh] small-phone:max-h-[35vh] ">
         <img
           src="./Rectangle 60.svg"
           className="relative left-[5%] h-[2rem] lg:w-[5%] mb-[90%] md:w-[5%] md:mb-36 lg:mb-[22%] md:mt-[5%] mt-[10%]"
@@ -23,3 +23,6 @@ function Service({ heading, desc }) {
 }
 
 export default Service;
+
+// mobile:max-h-[30vh] 
+// lg:min-h-[30vh]
