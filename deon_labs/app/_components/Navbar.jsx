@@ -43,7 +43,7 @@ function Navbar() {
           </div>
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1024}>
+      <MediaQuery maxWidth={1280}>
         <div className={!show?"flex h-[8.5vh] w-[80vw] lg:h-[7vh]   flex-row items-center justify-between":"flex h-[8.5vh] w-[80vw] lg:h-[7vh] flex-row items-center justify-between relative left-[10%]"}>
           {/* bg-[#0a0a0a] lg:h-[16vh] "> */}
           <a href="/">
