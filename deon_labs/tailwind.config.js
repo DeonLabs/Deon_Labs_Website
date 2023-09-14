@@ -44,7 +44,8 @@ module.exports = {
         'fold':{ 'max': '280px'}, 
         'phone': {'max': '400px'},
         'sm': {'min': '200px', 'max': '1130px'}, 
-        'mobile': {'min': '200px', 'max': '500px'},
+        'mobile': {'min': '200px', 'max': '800px'},
+        'nest-hub' :{'min:': '1024px', 'max': '1500px'},
       }
       ,
       colors:{
