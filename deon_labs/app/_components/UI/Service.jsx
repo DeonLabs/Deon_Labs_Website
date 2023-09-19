@@ -2,8 +2,10 @@ import React from "react";
 
 function Service({ heading, desc }) {
   return (
-    <>
-      <div className="relative left-[8%] flex  mobile:max-h-[30vh]  max-w-[86vw]  flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw] lg:min-h-[30vh] small-phone:max-h-[35vh] ">
+    <div>
+      <img src="./Group 2340.png" className="absolute invisible  md:visible  lg:invisible right-[0.05%] w-[100%] max-h-screen py-[2%] -z-20" alt="" />
+
+      <div className="relative left-[8%] flex  mobile:max-h-[30vh]  max-w-[86vw]  flex-row rounded-2xl border border-gray-500 bg-black align-middle drop-shadow-xl lg:w-[35vw] lg:max-h-screen small-phone:max-h-screen ">
         <img
           src="./Rectangle 60.svg"
           className="relative left-[5%] h-[2rem] lg:w-[5%] mb-[90%] md:w-[5%] md:mb-36 lg:mb-[22%] md:mt-[5%] mt-[10%]"
@@ -16,9 +18,12 @@ function Service({ heading, desc }) {
           <p className="overflow-none px-[9%] font-tektur text-[0.83rem]  font-[400] opacity-50 md:text-2xl nest-hub:text-sm">
             {desc}
           </p>
+         
         </div>
+      
       </div>
-    </>
+      
+    </div>
   );
 }
 

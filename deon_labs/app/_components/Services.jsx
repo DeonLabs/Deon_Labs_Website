@@ -14,8 +14,11 @@ function Services({heading , desc}) {
           {desc}
         </p>
       </div>
-      <img src="./Group 2340.png" className="absolute lg:right-[0.05%] w-[100%]" alt="" />
-      <div className="relative flex flex-col gap-y-[2%] space-y-[4%] lg:grid lg:grid-cols-2 lg:space-y-[0px] lg:gap-y-[7%]  ">
+      <div></div>
+      <img src="./Group 2340.png" className="absolute invisible lg:visible lg:right-[0.05%] w-[100%] lg:py-[8%] xl:py-[0.5%]" alt="" />
+      
+      <div className=" flex flex-col gap-y-[5%] space-y-[10%] lg:grid lg:grid-cols-2 lg:space-y-[0%] lg:gap-y-[15%] xl:gap-y-[10%]  ">
+      <img src="./Group.png" className="absolute small-phone:invisible  md:invisible  right-[0.05%] w-[100%] max-h-screen py-[0.5%] -z-20" alt="" />
       
         <Service
           heading={"Full service launch and growth"}
@@ -29,12 +32,16 @@ function Services({heading , desc}) {
             "Deon Labs is the a web3 ecosystem enabler that helps web3 protocol to build their Web3 ecosystem. "
           }
         />
+      <img src="./Group.png" className="absolute md:invisible top-[150%]   small-phone:invisible  right-[0.05%] w-[100%] max-h-screen py-[0.5%] -z-20" alt="" />
+
         <Service
           heading={"Full service launch and growth"}
           desc={
             "Deon Labs is the a web3 ecosystem enabler that helps web3 protocol to build their Web3 ecosystem. "
           }
         />
+      <img src="./Group.png" className="absolute   md:invisible  small-phone:invisible   right-[0.05%] top-[180%] w-[100%] max-h-screen py-[0.5%] -z-20" alt="" />
+
         <Service
           heading={"Full service launch and growth"}
           desc={
