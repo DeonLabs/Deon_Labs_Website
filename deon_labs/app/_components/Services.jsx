@@ -4,7 +4,8 @@ import Service from "./UI/Service";
 
 function Services({heading , desc}) {
   return (
-    <div className="mt-[15%] flex flex-col space-y-[6%] py-[1%] font-black md:px-[0.25%] lg:px-[9%] lg:ml-[2%] lg:mr-[4%] ">
+    <div className="mt-[15%] flex flex-col space-y-[6%] py-[1%] font-black md:px-[0.25%] lg:px-[12%]  ">
+      
       <div>
         <h1 className="text-center font-tektur text-[1.728rem] font-semibold md:text-[2.07rem] lg:text-[3.58rem] ">
          {heading}
@@ -13,8 +14,9 @@ function Services({heading , desc}) {
           {desc}
         </p>
       </div>
-
-      <div className="relative flex flex-col gap-y-[4%] space-y-[4%] lg:grid lg:grid-cols-2 lg:space-y-[0px] lg:gap-y-[10%]  ">
+      <img src="./Group 2340.png" className="absolute lg:right-[0.05%] w-[100%]" alt="" />
+      <div className="relative flex flex-col gap-y-[2%] space-y-[4%] lg:grid lg:grid-cols-2 lg:space-y-[0px] lg:gap-y-[7%]  ">
+      
         <Service
           heading={"Full service launch and growth"}
           desc={

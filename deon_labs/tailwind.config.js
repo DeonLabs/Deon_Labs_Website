@@ -32,6 +32,7 @@ module.exports = {
         'Community-grad-phone' : 'url("/Hero_Community_phone.png")',
         'Community-grad-tab' : 'url("/Hero_Community_tab.png")',
         'Community-grad' : 'url("/Hero (3).png")',
+        'Card-bg' : 'url("/Group 2340.png")'
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],
