@@ -40,7 +40,7 @@ function Services({heading , desc}) {
             "Deon Labs is the a web3 ecosystem enabler that helps web3 protocol to build their Web3 ecosystem. "
           }
         />
-      <img src="./Group.png" className="absolute   md:invisible  small-phone:invisible   right-[0.05%] top-[180%] w-[100%] max-h-screen py-[0.5%] -z-20" alt="" />
+      <img src="./Group.png" className="absolute   md:invisible  small-phone:invisible  right-[0.05%] top-[180%] w-[100%] max-h-screen py-[0.5%] -z-20" alt="" />
 
         <Service
           heading={"Full service launch and growth"}

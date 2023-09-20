@@ -19,6 +19,9 @@ function Service({ heading, desc }) {
             {desc}
           </p>
          
+         <p className="opacity-50 font-light font-tektur">
+          Know More
+         </p>
         </div>
       
       </div>
