@@ -39,7 +39,7 @@ function page() {
         {/*  By A Team From */}
         <Team/>
 
-     <Vision/>
+     <Vision heading={"Our Vision"} desc={"This is only for test purposes"}/>
       
     
       {/* Partners */}
