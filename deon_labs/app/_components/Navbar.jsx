@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="bg-black fixed left-1/2 top-0 z-10 -translate-x-1/2 rounded-b-[32px] rounded-t-none border-none px-[4%] py-[10px] ">
       <MediaQuery minWidth={1280}>
-        <div className="flex h-[8vh] w-[80vw] lg:w-[70vw] lg:h-[16vh]   flex-row items-center justify-between">
+        <div className="flex h-[8vh] w-[80vw] lg:w-[70vw] lg:min-h-[16vh]   flex-row items-center justify-between">
           {/* bg-[#0a0a0a] lg:h-[16vh] "> */}
           <a href="/">
           <Image

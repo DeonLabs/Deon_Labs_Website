@@ -32,6 +32,7 @@ module.exports = {
         'Community-grad-phone' : 'url("/Hero_Community_phone.png")',
         'Community-grad-tab' : 'url("/Hero_Community_tab.png")',
         'Community-grad' : 'url("/Hero (3).png")',
+        'Card-bg' : 'url("/Group 2340.png")'
       },
       fontFamily: {
         tektur: ["Tektur" , "cursive"],
@@ -46,7 +47,7 @@ module.exports = {
         'sm': {'min': '200px', 'max': '1130px'}, 
         'mobile': {'min': '200px', 'max': '800px'},
         'nest-hub' :{'min:': '1024px', 'max': '1500px'},
-        'small-phone':{'min:': '320px', 'max': '390px'}
+        'small-phone':{'min:': '320px', 'max': '340px'}
       }
       ,
       colors:{
